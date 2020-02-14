@@ -1,0 +1,194 @@
+
+# Created by https://www.gitignore.io/api/java,react,ember,gradle,java-web
+# Edit at https://www.gitignore.io/?templates=java,react,ember,gradle,java-web
+
+### Ember ###
+# see https://github.com/ember-cli/ember-cli/blob/master/blueprints/app/files/gitignore
+# compiled output
+/dist
+/tmp
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+### Java ###
+# Compiled class file
+*.class
+.lock
+
+# Log file
+*.log
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Java-Web ###
+## ignoring target file
+target/
+
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### Gradle, Ivy, and Builds ###
+.gradle
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+ivy
+
+build/
+**/build/
+**/.classpath
+**/.project
+/lib/internal/java/
+/wildfly-10.1.0.Final
+
+### Editors
+.vscode
+.idea/
+.settings/
+
+.sencha/
+/lib/external/java/wildfly/jboss-cli-client.jar
+**/bin
+
+# Collectors
+/dev/collector/AveksaAgent/
+
+# Database
+/dev/database/lib/
+/dev/database/reportdefs/
+
+# Webapp ignores
+/dev/webapp/test/classes
+/test_reports
+/dev/webapp/WEB-INF
+/dev/webapp/WEB-INF/schemas
+/dev/webapp/WEB-INF/lib
+/dev/webapp/paged
+/dev/webapp/jsp_src
+/dev/webapp/jsp_build
+/dev/webapp/WEB-INF/database
+/dev/webapp/ide
+/lib/external/java/wildfly/boss-cli-client.jar
+/dev/webapp/html/about
+/dev/webapp/src/com/aveksa/gui/strings_de.properties
+/dev/webapp/src/com/aveksa/gui/strings_es_ES.properties
+/dev/webapp/src/com/aveksa/gui/strings_es_MX.properties
+/dev/webapp/src/com/aveksa/gui/strings_fr.properties
+/dev/webapp/src/com/aveksa/gui/strings_it.properties
+/dev/webapp/src/com/aveksa/gui/strings_ja.properties
+/dev/webapp/src/com/aveksa/gui/strings_pt_BR.properties
+/dev/webapp/src/com/aveksa/gui/strings_ru.properties
+/dev/webapp/src/com/aveksa/gui/strings_zh_CN.properties
+/dev/webapp/src/com/aveksa/gui/strings_zh_TW.properties
+
+#Database Ignores
+/dev/database/Create Scripts/workflow
+!/dev/database/Create Scripts/workflow/AddUniqueWPIniIndex.sql
+!/dev/database/Create Scripts/workflow/clean_workflow_const.sql
+!/dev/database/Create Scripts/workflow/CleanWPIni.sql
+/dev/database/lib
+/dev/database/reportdefs
+/dev/database/Upgrade/workflow
+/dev/database/DBA/AVDB/export
+/dev/database/DBA/AVDB/logs
+/dev/database/DBA/AVDB/rman_bu
+
+# Architect ignores
+/dev/workflow/architect/src
+/dev/workflow/architect/lib
+/dev/workflow/architect/grails-app
+/dev/workflow/architect/.senchaRemoteRemoved
+/dev/workflow/architect/_application.xml
+/dev/workflow/architect/jboss-deployment-structure.xml
+/dev/workflow/architect/README.md
+/dev/workflow/architect/Release Notes.md
+/dev/workflow/architect/Workpoint Architect Developer Guide.docx
+/dev/workflow/architect/gradlew.bat
+/dev/workflow/architect/gradlew
+/dev/workflow/architect/gradle/wrapper/gradle-wrapper.properties
+/dev/workflow/architect/gradle/wrapper/gradle-wrapper.jar
+/dev/workflow/architect/gradle.properties
+/dev/workflow/architect/build.gradle
+/AFX/product_documentation/guides/source/RSA_Identity_Governance_and_Lifecycle_IBM_Notes_Connector_Datasheet.docx
+/dev/webapp/ide/intelliJ_IDEA/v2/afx.iml
+
+#Collectors
+/dev/collector/AveksaAgent
+/dev/collectors/J2EE_GenericCollector/lib/xml-apis-1.4.01.jar
+/dev/collectors/SCIMCollector/lib/SCIM.jar
+/dev/database/aveksa-version.properties
+
+# FuncTest ignores:
+/qa/func/test_data/current_data
+/qa/func/test_data/db_verification/actual
+
+#lib ignores
+/lib/external/java/sencha/repo
+/lib/external/java/wildfly/ironjacamar-jdbc-1.3.4.Final.jar
+/lib/external/java/wildfly/jboss-cli-client.jar
+/lib/internal/java
+/external
+
+#intellij
+*.idea/
+/img.iws
+/img.ipr
+*.iml
+/.shelf
+
+# AFX
+/AFX/esb
+/AFX/external
+
+# Documentation
+/dev/client_sdk/workflow-javadoc
+
+# Build/staging
+/dev/client_sdk/changesetinfo.txt
+/dev/client_sdk/collector-toolkit/CollectorPackage.xsd
+/dev/client_sdk/version.txt
+/qa/acmtests.zip
+/qa/func-automation.zip
+/qa/kickstart-automation.zip
+/qa/selenium-acm/test_reports
+/AFX/AFX-Connectors/transports/SunIdM/generated-sources
+/AFX/AFX-Connectors/transports/Workday/generated-sources
+/AFX/AFX-Connectors/transports/Workday/lib
+/AFX/AFX-Connectors/dist
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_de.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_es_ES.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_es_MX.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_fr.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_it.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_ja.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_pt_BR.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_ru.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_zh_CN.properties
+/AFX/AFXPlugIn/src/main/java/com/aveksa/afx/ui/AFXStrings_zh_TW.properties
+/AFX/platform/mmc-console/webapps/mmc/WEB-INF/classes/manifest.xml
+/AFX/platform/mule/apps/AFX-CMD/manifest.xml
+/AFX/platform/mule/apps/AFX-TEST/manifest.xml
+/AFX/platform/mule/apps/AFX-TEST/lib/Verify_FIPS_Enable.jar
+/AFX/tools/Generic_Java_Connector_SDK/JavaConnectorSDK/lib/afx-stub-java_code_based.jar
+/lib/external/java/netsuite/netsuite-ws-client.jar
+/lib/external/java/scim/SCIM.jar
+/lib/external/java/sharepoint/sharepoint-ws-client.jar

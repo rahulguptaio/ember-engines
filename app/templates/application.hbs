@@ -1,0 +1,16 @@
+<div id="fixedheader">
+  {{#link-to "index"}}
+    JS<span class="igl">&nbsp;Meetup</span>
+  {{/link-to}}
+  <ul class="nav">
+    <li>{{#link-to "user"}}Speakers (engine){{/link-to}}</li>
+    <li>{{#link-to "review"}}Sessions (engine){{/link-to}}</li>
+    <li>{{#link-to "workflow"}}Contact us (engine){{/link-to}}</li>
+  </ul>
+</div>
+<div id="maincontent">
+  {{outlet}}
+</div>
+<div id="fixedfooter">
+  JS Meetup Bangalore 2020
+</div>
